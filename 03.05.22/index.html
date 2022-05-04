@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0px;
+            background-color: black;
+            text-align: center;
+        }
+
+        header ul li {
+            display: inline-block;
+        }
+
+        header a:link, header a:visited {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: inline-block;
+            background-image: url('imagens/faceBlack.png');
+            background-repeat: no-repeat;
+            background-position: center 10px;
+            padding-top: 50px;
+            font-family: 'Oswald';
+            transition: 0.5s;
+            border-bottom: 3px solid black;
+        }
+
+        header a.face:hover {
+            background-image: url('imagens/face.png');
+            color: cornflowerblue;
+            border-bottom: 3px solid cornflowerblue
+        }
+
+        header a.face {
+            background-image: url('imagens/faceBlack.png');
+        }
+
+        header a.insta:hover {
+            background-image: url('imagens/insta.png');
+            color:blueviolet;
+            border-bottom: 3px solid blueviolet
+        }
+
+        header a.insta {
+            background-image: url('imagens/instaBlack.png');
+        }
+
+        header a.maps:hover {
+            background-image: url('imagens/maps.png');
+            color: green;
+            border-bottom: 3px solid green
+        }
+
+        header a.maps {
+            background-image: url('imagens/mapsBlack.png');
+        }
+
+        header a.tweet:hover {
+            background-image: url('imagens/twitter.png');
+            color: yellow;
+            border-bottom: 3px solid yellow
+        }
+
+        header a.tweet {
+            background-image: url('imagens/twitterBlack.png');
+        }
+
+        header a.yb:hover {
+            background-image: url('imagens/youtube.png');
+            color: red;
+            border-bottom: 3px solid red
+         
+        }
+
+        header a.yb {
+            background-image: url('imagens/youtubeBlack.png');
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://facebook.com" class="face">Facebook</a></li>
+                <li><a href="https://instagram.com" class="insta">Instagram</a></li>
+                <li><a href="https://maps.google.com" class="maps">Google Maps</a></li>
+                <li><a href="https://twitter.com" class="tweet">Twitter</a></li>
+                <li><a href="https://youtube.com" class="yb">YouTube</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>A fonte utilizada no texto é OSWALD</p>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap');
+
+* {
+    margin: 0px;
+    /*manter a largura e a altura independente de border e padding*/
+    box-sizing: border-box;
+}
+
+header ul {
+    /*remover bolinhas dos itens da lista*/
+    list-style: none;
+    /*remover espaço antes dos itens da lista*/
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+}
+
+header ul li {
+    /*colocar na mesma linha*/
+    display: inline-block;
+
+}
+
+header a:link,
+header a:visited {
+    /*remover sublinhado do link*/
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    /*Espaço ao redor dos itens de menu*/
+    padding: 15px 20px;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    font-family: 'akshar', sans-serif;
+    font-weight: 600;
+}
+
+header h1,
+header h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    transition: all 3s;
+}
+
+header h2 {
+    font-size: 30px;
+    color: darkred;
+}
+
+header h1:hover {
+    letter-spacing: 5px;
+}
+
+/*ntt-child aplica nos filhos ímpares a formatação*/
+main section:nth-child(odd) {
+    background-color: rgb(213, 213, 213);
+}
+
+main section p {
+    padding: 25px;
+    line-height: 150%;
+}
+
+main section a:link,
+main section a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+main section ul li {
+    margin-bottom: 5px;
+}
+
+main section ul {
+    margin-bottom: 20px;
+}
+
+footer,
+main {
+    font-family: 'akshar', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    background-color: black;
+    padding: 40px 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.descriptionList {
+    color: red;
+    font-weight: bold;
+}
+
+div[class^="box"] {
+    padding-top: 20px;
+    width: 33.3%;
+    height: auto;
+    float: left;
+}
+
+.allboxes {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+}
+
+div p {
+    text-align: center;
+}
+
+div img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px 5px;
+}
+
+div h3 {
+    text-align: center;
+    padding: 5px 5px;
+}

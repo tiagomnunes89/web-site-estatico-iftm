@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header section:nth-child(1) {
+    background-color: black;
+}
+
+header section:nth-child(2) {
+    background-color: rgb(0, 102, 128);
+}
+
+header ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul a:link,
+header ul a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+header ul a:hover {
+    color: rgb(0, 102, 128);
+    background-color: white;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: url(../imagens/fundo.png);
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.boxTop>div {
+    color: white;
+    width: 250px;
+}
+
+.boxTop div:nth-child(1) {
+    float: left;
+    background-image: url('../imagens/logo.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 15px;
+    padding-left: 70px;
+}
+
+.boxTop div:nth-child(2) {
+    float: right;
+    padding: 15px;
+    padding-left: 60px;
+    text-align: right;
+    background-position: right center;
+
+}
+
+.barreira::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main section {
+    background-color: white;
+}
+
+.boxMaserati{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.boxMaserati div{
+    float: left;
+}
+
+.boxMaserati div:nth-child(1){
+    width: 70%;
+}
+
+.boxMaserati div:nth-child(2){
+    width: 30%;
+    padding: 0px 15px;
+}
+
+.boxMaserati div:nth-child(1) img{
+    width: 100%;
+}
+
+.boxServices div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+.boxServices {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.boxServices div h1{
+    padding: 10px;
+}
+
+.boxModels div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.boxModels {
+    padding: 10px;
+}
+
+.boxModels div h1{
+    padding: 10px;
+}
+
+.boxModels div img{
+    width:100%;
+}
+
+.creativityText {
+    text-align: center;
+    padding: 10px;
+}
+
+.boxModels div h2{
+    font-size: medium;
+}
+
+.creativityText p {
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.boxCreativity {
+    margin-bottom: 20px;
+}

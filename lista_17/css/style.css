@@ -1,0 +1,155 @@
+body {
+    font-family: Tahoma;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(37, 110, 94);
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a:link,
+header ul li a:visited {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color: darkgreen;
+}
+
+header h1 {
+    color: red;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+header p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boxTop div:nth-child(2) {
+    text-align: center;
+}
+
+.boxTop div:nth-child(1) img {
+    width: 190px;
+    margin: 15px;
+}
+
+.boxTop div:nth-child(3) img {
+    width: 110px;
+    margin-top: 15px;
+}
+
+.boxTop>div {
+    padding: 5px;
+
+}
+
+.boxSobreCurso>div {
+    padding: 10px;
+}
+
+main section:nth-child(even) {
+    background-color: rgb(177, 254, 177);
+
+}
+
+.boxSobreCurso p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+    font-size: small;
+}
+
+.boxSobreCurso h2 {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.boxSobreCurso img {
+    width: 580px;
+}
+
+.boxSobreCurso ul {
+    margin-top: 0px;
+    font-size: small;
+}
+
+.boxSobreCurso .others {
+    font-weight: bold;
+}
+
+/*de todas os filhos div pega o primeiro*/
+.boxDetalhes>div div:nth-child(1) {
+    background-color: darkblue;
+}
+
+.boxDetalhes>div div:nth-child(1) p {
+    font-size: small;
+}
+
+.boxDetalhes>div div{
+    padding: 10px;
+}
+
+.boxDetalhes>div div:nth-child(1), .boxDetalhes>div div:nth-child(3) {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.boxDetalhes>div div:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+
+.boxDetalhes>div div:nth-child(3) {
+    background-color: rgb(221, 109, 109);
+}
+
+.boxDetalhes>div div:nth-child(3) p {
+    font-size: 13px;
+}
+
+.boxDetalhes>div div:nth-child(2) p {
+    text-align: justify;
+    padding: 15px;
+    font-size: small;
+}
+
+.boxDetalhes>div {
+    padding: 10px;
+}
+
+footer {
+    background-color: darkblue;
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: 550;
+    font-size: small;
+}

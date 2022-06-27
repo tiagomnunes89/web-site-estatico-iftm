@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
     margin: 0px;
@@ -42,8 +43,8 @@ section ul a:visited {
     padding: 15px 20px;
 }
 
-header ul a:link:hover {
-    color: aqua;
+header ul a:hover {
+    background-color: rgb(0, 68, 255);
 }
 
 .visibility {
@@ -123,7 +124,7 @@ body {
     background-size: 150px;
     background-position: center;
     position: absolute;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border-radius: 50%;
     background-image: url('https://yt3.ggpht.com/ytc/AKedOLTNwDxyzEnX5rT7wtcNLZ0O4tTqfjdrEEgdFb77KCY=s900-c-k-c0x00ffffff-no-rj');
 
@@ -135,7 +136,7 @@ body {
     background-size: 200px;
     margin: auto;
     background-position: initial;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/zup.jpg');
     border-radius: 50%;
 }
@@ -149,9 +150,9 @@ body {
     height: 200px;
     background-size: 400px;
     margin: auto;
-    border-radius: 15%;
+    border-radius: 15px;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/podcast.jpg');
 }
 
@@ -166,20 +167,22 @@ header ul a:visited {
 .bradPic {
     width: 240px;
     height: 480px;
+    border-radius: 15px;
     background-size: 240px;
     margin: auto;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/bradesco.png');
 }
 
 .cpqdPic {
     width: 240px;
     height: 480px;
+    border-radius: 15px;
     background-size: 240px;
     margin: auto;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/cpqd.png');
 }
 
@@ -187,9 +190,10 @@ header ul a:visited {
     width: 240px;
     height: 480px;
     background-size: 240px;
+    border-radius: 15px;
     margin: auto;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/Beagle.jpg');
 }
 
@@ -197,19 +201,21 @@ header ul a:visited {
     width: 240px;
     height: 480px;
     background-size: 240px;
+    border-radius: 15px;
     margin: auto;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/cetelem.jpg');
 }
 
 .olePic {
     width: 240px;
     height: 480px;
+    border-radius: 15px;
     background-size: 240px;
     margin: auto;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url('../img/ole.png');
 }
 
@@ -253,7 +259,7 @@ section .projetos h3 {
     padding: 10px 0px;
 }
 
-.fotoRosto:hover{
+.fotoRosto:hover {
     background-size: 180px;
     border: 4px solid rgb(0, 110, 255);
     transform: rotate(-15deg);
@@ -266,9 +272,109 @@ img {
     width: 100%;
 }
 
-main section:nth-child(3){
+main section:nth-child(3) {
     background-color: blue;
 }
+
+main section:nth-child(4) {
+    padding-bottom: 100px;
+}
+
+footer p{
+    color: aqua;
+    width: 100%;
+    background-color: darkblue;
+    padding-top: 15px;
+    padding-left:35px;
+}
+
+footer {
+    list-style: none;
+    padding: 0px;
+    background-color: darkblue;
+    position: fixed;
+    bottom: -90px;
+    /*sempre que tiver position tem que definir a largura*/
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    transition: all 0.5s;
+}
+
+footer:hover {
+    bottom: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    display: inline-block;
+    background-image: url('../img/instaBlack.png');
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    padding-top: 60px;
+    font-family: 'Oswald';
+    transition: 0.5s;
+    border-top: 3px solid rgb(0, 68, 255);
+}
+
+footer a.medium:hover {
+    background-image: url('../img/medium.jpg');
+    color:rgb(16, 189, 16);
+    border-top: 3px solid rgb(16, 189, 16);
+    background-size: 35px;
+}
+
+footer a.medium {
+    background-image: url('../img/mediumBlack.png');
+    background-size: 35px;
+}
+
+footer a.link:hover {
+    background-image: url('../img/linkedinColor.png');
+    color: rgb(39, 151, 207);
+    border-top: 3px solid rgb(39, 151, 207);
+    background-size: 35px;
+}
+
+footer a.link {
+    background-size: 35px;
+    background-image: url('../img/linkedinBlack.png');
+}
+
+
+footer a.git:hover {
+    background-image: url('../img/github.png');
+    color: rgb(184, 61, 186);
+    border-top: 3px solid rgb(184, 61, 186);
+    background-size: 35px;
+}
+
+footer a.git {
+    background-size: 35px;
+    background-image: url('../img/githubBlack.png');
+}
+
+footer a.yb:hover {
+    background-image: url('../img/youtube.png');
+    color: red;
+    border-top: 3px solid red
+ 
+}
+
+footer a.yb {
+    background-image: url('../img/youtubeBlack.png');
+}
+
+
 
 /*Desktop*/
 @media screen and (min-width:1080px) {
@@ -321,7 +427,7 @@ main section:nth-child(3){
         justify-self: center;
         background-color: transparent;
     }
-    
+
     .fotoBox {
         display: flex;
         width: 1200px;
@@ -331,7 +437,7 @@ main section:nth-child(3){
         background-color: transparent;
     }
 
-    .fotoRosto:hover{
+    .fotoRosto:hover {
         background-size: 330px;
         border: 8px solid rgb(0, 110, 255);
     }
@@ -340,7 +446,7 @@ main section:nth-child(3){
         margin: 110px 380px;
         font-size: 18px;
     }
-    
+
     .backgrounds {
         display: flex;
         flex-direction: row;
@@ -372,13 +478,13 @@ main section:nth-child(3){
     }
 
     .podcastBox {
-        width:450px;
+        width: 450px;
         margin-left: 40px;
         align-self: center;
     }
 
     .podcast {
-        width:600px;
+        width: 600px;
         height: 300px;
         background-size: 600px;
     }
@@ -387,16 +493,17 @@ main section:nth-child(3){
     main section:nth-child(2) {
         margin-top: -150px;
     }
-    
+
     main section .projetosBox {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .podHacka {
         display: flex;
         flex-flow: row-reverse nowrap;
     }
-    
+
 }

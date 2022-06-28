@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
 body {
     width: 100%;
     background-color: black;
@@ -338,8 +343,6 @@ footer p {
     background-color: darkblue;
     font-size: small;
     padding-top: 15px;
-
-    padding-left: 50px;
 }
 
 footer {
@@ -448,7 +451,7 @@ footer a.yb {
 
 .contatoBox a.whats {
     background-image: url('../img/whatsapp.png');
-  
+
 }
 
 .contatoBox a.telegram {

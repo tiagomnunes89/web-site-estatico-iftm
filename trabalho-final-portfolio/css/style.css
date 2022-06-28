@@ -90,7 +90,7 @@ header ul a {
 .nameBox h1 {
     font-weight: bold;
     color: white;
-    font-size: 28px;
+    font-size: 25px;
     position: absolute;
 }
 
@@ -134,7 +134,7 @@ header ul a {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    margin-left: 65px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 

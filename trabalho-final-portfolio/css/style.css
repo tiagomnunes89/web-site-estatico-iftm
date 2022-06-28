@@ -384,8 +384,8 @@ footer a.link {
 
 footer a.git:hover {
     background-image: url('../img/github.png');
-    color: rgb(184, 61, 186);
-    border-top: 3px solid rgb(184, 61, 186);
+    color: rgb(218, 165, 32);
+    border-top: 3px solid rgb(218, 165, 32);;
     background-size: 35px;
 }
 

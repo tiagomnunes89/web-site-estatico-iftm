@@ -9,7 +9,6 @@
 .relativeParent {
     position: relative;
     overflow-x: hidden;
-    text-align: center;
 }
 
 ul {
@@ -313,6 +312,7 @@ section .projetos h1 {
 
 section .projetos h3 {
     padding: 10px 0px;
+    font-size: medium;
 }
 
 .fotoRosto:hover {
@@ -472,6 +472,15 @@ footer a.yb {
     background-image: url('../img/up.png');
 }
 
+.projetosBox .proj {
+    border-radius: 20px;
+    width: 300px;
+    background-color: darkblue;
+    justify-content: center;
+    align-content: center;
+    margin: 25px 0px;
+}
+
 /*Desktop*/
 @media screen and (min-width:960px) {
     header img {
@@ -481,6 +490,13 @@ footer a.yb {
     .container {
         width: 1200px;
         margin: auto;
+    }
+
+    .projetosBox .proj {
+        border-radius: 20px;
+        width: 300px;
+        margin: 25px 25px;
+        justify-content: center;
     }
 
     header ul {
@@ -645,7 +661,6 @@ footer a.yb {
         background-image: url('../img/github.png');
         color: rgb(218, 165, 32);
         border-top: 3px solid rgb(218, 165, 32);
-        ;
         background-size: 35px;
     }
 
@@ -693,5 +708,145 @@ footer a.yb {
         display: flex;
         width: 100%;
         flex-direction: column;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:720px) and (max-width:960px){
+    .container {
+        width: 650px;
+        margin: auto;
+    }
+
+    header ul {
+        text-align: right;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    header h1 {
+        font-size: 45px;
+    }
+
+    header h2 {
+        font-size: 23px;
+    }
+
+    .nameBox h1 {
+        font-size: 60px;
+    }
+
+    header nav {
+        display: flex;
+        position: absolute;
+        background-color: transparent;
+        justify-content: flex-end;
+    }
+
+    .fotoRosto {
+        width: 250px;
+        height: 250px;
+        background-size: 250px;
+        border: 8px solid blue;
+    }
+
+    .nameBox {
+        display: flex;
+        width: 650px;
+        margin: 120px 0px;
+        align-self: flex-start;
+        justify-self: center;
+        background-color: transparent;
+    }
+
+    .fotoBox {
+        display: flex;
+        width: 650px;
+        margin: 270px 0px;
+        align-content: flex-end;
+        justify-self: center;
+        background-color: transparent;
+    }
+
+    .fotoRosto:hover {
+        background-size: 290px;
+        border: 8px solid rgb(0, 110, 255);
+    }
+
+    .nameBox p {
+        margin: 90px 150px;
+        font-size: 18px;
+    }
+
+    .backgrounds {
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+    }
+
+    main section .projetosBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 20px;
+    }
+
+    .ouvir {
+        flex-direction: row;
+    }
+
+    .ouvir li {
+        margin-right: 20px;
+    }
+
+    header ul a:hover {
+        color: aqua;
+    }
+
+    header ul a {
+        background-color: transparent;
+    }
+
+    .contatoBox ul {
+        flex-direction: row;
+    }
+
+    .bradPic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+    
+    .cpqdPic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+    
+    .beaglePic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+    
+    .cetelemPic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+    
+    .olePic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+
+    .projetosBox .proj {
+        border-radius: 20px;
+        width: 210px;
+        margin: 25px 25px;
+        height: fit-content;
+        justify-content: center;
     }
 }

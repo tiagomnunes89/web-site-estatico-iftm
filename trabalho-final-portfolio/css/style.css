@@ -95,7 +95,7 @@ header ul a {
 }
 
 .nameBox h1:hover {
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     transition: 1500ms linear;
 }
 
@@ -395,7 +395,7 @@ footer a.yb {
 
 
 /*Desktop*/
-@media screen and (min-width:1080px) {
+@media screen and (min-width:960px) {
     header img {
         content: url(../img/topoPC.jpg);
     }
@@ -602,6 +602,10 @@ footer a.yb {
 
     header ul a {
         background-color: transparent;
+    }
+
+    .nameBox h1:hover {
+        letter-spacing: .2rem;
     }
     
 }

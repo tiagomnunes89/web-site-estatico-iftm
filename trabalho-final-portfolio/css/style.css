@@ -269,7 +269,6 @@ header ul a:visited {
 
 main section {
     padding: 0px;
-    background-color: black;
     color: white;
 }
 
@@ -320,6 +319,10 @@ img {
 
 main section:nth-child(odd) {
     background-color: blue;
+}
+
+main section:nth-child(1) {
+    background-color: black;
 }
 
 main section:nth-child(5) {

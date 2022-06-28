@@ -166,9 +166,15 @@ body {
     border-radius: 50%;
 }
 
-.podcastBox {
+.podcastPicBox {
     padding-top: 40px;
 }
+
+.podcastBox p{
+    height: fit-content;
+    padding: 10px 0px;
+}
+
 
 .podcast {
     width: 300px;
@@ -302,7 +308,7 @@ main section:nth-child(3) {
 }
 
 main section:nth-child(4) {
-    padding-bottom: 100px;
+    padding-bottom:200px;
 }
 
 footer p{
@@ -502,7 +508,7 @@ footer a.yb {
         background-size: 300px;
     }
 
-    .podcastBox {
+    .podcastPicBox {
         width: 450px;
         margin-left: 40px;
         align-self: center;
@@ -532,8 +538,11 @@ footer a.yb {
     }
 
     .ouvir {
-        flex-direction: row-reverse;
-        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .ouvir li {
+        margin-right: 20px;
     }
 
 }

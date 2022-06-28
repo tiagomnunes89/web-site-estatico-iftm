@@ -93,7 +93,7 @@ header ul a {
 }
 
 .container {
-    width: 300px;
+    width: 80%;
     margin: auto;
 }
 
@@ -487,11 +487,6 @@ footer a.yb {
         content: url(../img/topoPC.jpg);
     }
 
-    .container {
-        width: 1200px;
-        margin: auto;
-    }
-
     .projetosBox .proj {
         border-radius: 20px;
         width: 300px;
@@ -514,7 +509,8 @@ footer a.yb {
     }
 
     .nameBox h1 {
-        font-size: 70px;
+        font-size: 60px;
+        margin: 80px 130px;
     }
 
     header nav {
@@ -529,6 +525,7 @@ footer a.yb {
         height: 300px;
         background-size: 300px;
         border: 8px solid blue;
+        margin: 70px 80px;
     }
 
     .nameBox {
@@ -543,7 +540,7 @@ footer a.yb {
     .fotoBox {
         display: flex;
         width: 1200px;
-        margin: 190px 0px;
+        margin: 260px 0px;
         align-content: flex-end;
         justify-self: center;
         background-color: transparent;
@@ -555,14 +552,14 @@ footer a.yb {
     }
 
     .nameBox p {
-        margin: 110px 380px;
-        font-size: 18px;
+        margin: 180px 400px;
+        font-size: large;
     }
 
     .backgrounds {
         display: flex;
         flex-direction: row;
-        height: 550px;
+        height: 800px;
     }
 
     .resumo {
@@ -589,9 +586,9 @@ footer a.yb {
     }
 
     .podcast {
-        width: 600px;
-        height: 300px;
-        background-size: 600px;
+        width: 400px;
+        height: 200px;
+        background-size: 400px;
     }
 
 
@@ -713,27 +710,13 @@ footer a.yb {
 
 /*Tablet*/
 @media screen and (min-width:720px) and (max-width:960px){
-    .container {
-        width: 650px;
-        margin: auto;
-    }
+
 
     header ul {
         text-align: right;
         justify-content: flex-end;
         flex-direction: row;
-    }
-
-    header h1 {
-        font-size: 45px;
-    }
-
-    header h2 {
-        font-size: 23px;
-    }
-
-    .nameBox h1 {
-        font-size: 60px;
+        font-size: smaller;
     }
 
     header nav {
@@ -743,16 +726,21 @@ footer a.yb {
         justify-content: flex-end;
     }
 
+    .nameBox h1 {
+        font-size: xx-large;
+        margin: -20px 100px;
+    }
+
     .fotoRosto {
-        width: 250px;
-        height: 250px;
-        background-size: 250px;
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
         border: 8px solid blue;
     }
 
     .nameBox {
         display: flex;
-        width: 650px;
+        width: 600px;
         margin: 120px 0px;
         align-self: flex-start;
         justify-self: center;
@@ -762,7 +750,7 @@ footer a.yb {
     .fotoBox {
         display: flex;
         width: 650px;
-        margin: 270px 0px;
+        margin: 200px 0px;
         align-content: flex-end;
         justify-self: center;
         background-color: transparent;
@@ -774,14 +762,14 @@ footer a.yb {
     }
 
     .nameBox p {
-        margin: 90px 150px;
-        font-size: 18px;
+        margin: 40px 110px;
+        font-size: medium;
     }
 
     .backgrounds {
         display: flex;
         flex-direction: row;
-        height: 550px;
+        height: 450px;
     }
 
     main section .projetosBox {

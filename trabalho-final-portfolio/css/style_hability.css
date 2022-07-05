@@ -591,6 +591,7 @@ footer a.yb {
         text-align: right;
         justify-content: flex-end;
         flex-direction: row;
+        flex-wrap: wrap;
         font-size: smaller;
     }
 

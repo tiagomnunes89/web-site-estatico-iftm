@@ -471,9 +471,9 @@ footer a.yb {
     }
 
     .archPic {
-        width: 400px;
-        height: 200px;
-        background-size: 400px;
+        width: 600px;
+        height: 300px;
+        background-size: 600px;
     }
 
 
@@ -551,8 +551,8 @@ footer a.yb {
     }
 
     .archPicBox {
-        width: 450px;
-        margin-left: 40px;
+        width: 600px;
+        padding-left: 40px;
     }
 
     header ul a {

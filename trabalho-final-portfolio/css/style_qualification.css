@@ -362,6 +362,10 @@ footer a.yb {
     background-image: url('../img/up.png');
 }
 
+.collegeText h2 {
+    padding-top: 40px;
+}
+
 /*Desktop*/
 @media screen and (min-width:960px) {
     header img {
@@ -471,9 +475,9 @@ footer a.yb {
     }
 
     .inglesPic {
-        width: 400px;
-        height: 200px;
-        background-size: 400px;
+        width: 500px;
+        height: 250px;
+        background-size: 500px;
     }
 
 
@@ -552,8 +556,8 @@ footer a.yb {
     }
 
     .inglesPicBox {
-        width: 450px;
-        margin-left: 40px;
+        width: 500px;
+        padding-left: 40px;
     }
 
     header ul a {

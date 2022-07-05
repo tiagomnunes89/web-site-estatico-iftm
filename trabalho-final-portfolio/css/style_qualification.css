@@ -422,7 +422,7 @@ footer a.yb {
     }
 
     .experienciasPicBox {
-        width: 200px;
+        width: 300px;
         margin-left: 1000px;
         position: absolute;
     }
@@ -458,9 +458,9 @@ footer a.yb {
     }
 
     .experienciasPic {
-        width: 200px;
-        height: 200px;
-        background-size: 200px;
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
     }
 
     .collegePic {

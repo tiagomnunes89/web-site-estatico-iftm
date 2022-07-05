@@ -58,27 +58,6 @@ section ul a:visited {
     padding: 15px 20px;
 }
 
-.ouvir {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.ouvir a:link,
-.ouvir a:visited {
-    text-decoration: none;
-    color: white;
-    margin: 20px 0px;
-    display: flex;
-    width: fit-content;
-    border-radius: 10px;
-    justify-items: center;
-    background-color: rgb(0, 68, 255);
-}
-
-.ouvir a:hover {
-    background-color: brown;
-}
-
 section nav ul li {
     list-style: none;
 }
@@ -136,7 +115,7 @@ body {
 }
 
 
-.toolsPic {
+.experienciasPic {
     width: 200px;
     height: 200px;
     background-size: 200px;
@@ -148,12 +127,12 @@ body {
     border-radius: 50%;
 }
 
-.toolsPicBox {
+.experienciasPicBox {
     display: flex;
     margin: 20px;
 }
 
-.languagesPic {
+.collegePic {
     width: 300px;
     height: 200px;
     background-size: 400px;
@@ -164,31 +143,31 @@ body {
     border-radius: 10%;
 }
 
-.languagesPicBox {
+.collegePicBox {
     display: flex;
     padding-top: 30px;
 }
 
-.archPicBox {
+.inglesPicBox {
     padding-top: 40px;
     align-self: center;
 }
 
-.archtectureBox p {
+.inglesBox p {
     height: fit-content;
     padding: 10px 0px;
 }
 
 
-.archPic {
+.inglesPic {
     width: 300px;
     height: 200px;
     background-size: 400px;
     margin: auto;
     border-radius: 15px;
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
-    background-image: url('../img/arch.jpg');
+    background-image: url('../img/turmacenid.jpg');
 }
 
 header ul a:link,
@@ -204,21 +183,22 @@ main section {
     color: white;
 }
 
-section .ferramentas p {
+section .experiencias p {
     padding: 20px 0px;
 }
 
-section .ferramentas h1 {
+section .experiencias h1 {
+    padding-bottom: 30px;
     display: flex;
     justify-self: flex-start;
     color: rgb(228, 60, 60);
 }
 
-section .languages p {
+section .college p {
     padding: 20px 0px;
 }
 
-section .languages h1 {
+section .college h1 {
     padding: 40px 0px;
     display: flex;
     justify-self: flex-start;
@@ -231,7 +211,7 @@ section .contatoBox h1 {
     color: rgb(228, 60, 60);
 }
 
-section .archtecture h1 {
+section .ingles h1 {
     padding: 40px 0px;
     text-align: start;
     color: rgb(228, 60, 60);
@@ -431,67 +411,66 @@ footer a.yb {
     }
 
 
-    .ferramentas {
+    .experiencias {
         display: flex;
         flex-flow: row nowrap;
     }
 
-    .languages {
+    .college {
         display: flex;
         flex-direction: column;
-        padding-bottom: 50px;
     }
 
-    .toolsPicBox {
-        width: 300px;
+    .experienciasPicBox {
+        width: 200px;
         margin-left: 1000px;
         position: absolute;
     }
 
-    .languagesPicBox {
+    .collegePicBox {
         width: 600px;
     }
 
-    .ferramentasText {
+    .experienciasText {
         padding-top: 80px;
         padding-bottom: 30px;
         text-align: justify;
     }
 
-    .languagesText {
+    .collegeText {
         padding-left: 30px;
         padding-bottom: 30px;
         text-align: justify;
     }
 
-    .ferramentasBox {
+    .experienciasBox {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: space-between;
     }
 
-    .languagesBox {
+    .collegeBox {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: space-between;
     }
 
-    .toolsPic {
-        width: 300px;
-        height: 300px;
-        background-size: 300px;
+    .experienciasPic {
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
     }
 
-    .languagesPic {
+    .collegePic {
         width: 600px;
         height: 300px;
         background-position: initial;
         background-size: 600px;
     }
 
-    .archPic {
+    .inglesPic {
         width: 400px;
         height: 200px;
         background-size: 400px;
@@ -502,17 +481,10 @@ footer a.yb {
         margin-top: -150px;
     }
 
-    .archtecture {
+    .ingles {
+        padding-bottom: 50px;
         display: flex;
         flex-flow: row-reverse nowrap;
-    }
-
-    .ouvir {
-        flex-direction: row;
-    }
-
-    .ouvir li {
-        margin-right: 20px;
     }
 
     footer {
@@ -579,7 +551,7 @@ footer a.yb {
         color: rgb(228, 60, 60);
     }
 
-    .archPicBox {
+    .inglesPicBox {
         width: 450px;
         margin-left: 40px;
     }
@@ -602,12 +574,12 @@ footer a.yb {
         flex-direction: column;
     }
 
-    section .ferramentas h1 {
+    section .experiencias h1 {
         padding-bottom: 150px;
         margin-top: 100px;
     }
 
-    section .languages h1 {
+    section .college h1 {
         margin-top: 15px;
     }
 }
@@ -647,14 +619,6 @@ footer a.yb {
     .nameBox p {
         margin: 40px 110px;
         font-size: medium;
-    }
-
-    .ouvir {
-        flex-direction: row;
-    }
-
-    .ouvir li {
-        margin-right: 20px;
     }
 
     header ul a:hover {

@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.relativeParent {
+    position: relative;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+header nav {
+    padding: 20px 0px;
+    background-color: black;
+    letter-spacing: .2rem;
+    font-size: small;
+    width: 100%;
+    justify-content: flex-center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul a:link,
+header ul a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+section ul a:link,
+section ul a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+.ouvir {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ouvir a:link,
+.ouvir a:visited {
+    text-decoration: none;
+    color: white;
+    margin: 20px 0px;
+    display: flex;
+    width: fit-content;
+    border-radius: 10px;
+    justify-items: center;
+    background-color: rgb(0, 68, 255);
+}
+
+.ouvir a:hover {
+    background-color: brown;
+}
+
+section nav ul li {
+    list-style: none;
+}
+
+header ul a {
+    background-color: rgb(0, 68, 255);
+    margin: 10px;
+}
+
+.visibility {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.nameBox h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+
+.nameBox h1:hover {
+    letter-spacing: .1rem;
+    transition: 1500ms linear;
+}
+
+.absolute {
+    display: flex;
+    position: absolute;
+}
+
+.nameBox {
+    width: 80%;
+    height: fit-content;
+    margin: 60px 0px;
+    background-color: transparent;
+}
+
+.nameBox p {
+    color: aqua;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+}
+
+
+.toolsPic {
+    width: 200px;
+    height: 200px;
+    background-size: 300px;
+    margin: auto;
+    border: solid 5px white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/tools.png');
+    border-radius: 50%;
+}
+
+.toolsPicBox {
+    display: flex;
+    margin: 20px;
+}
+
+.languagesPic {
+    width: 300px;
+    height: 200px;
+    background-size: 400px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/languages.png');
+    border-radius: 10%;
+}
+
+.languagesPicBox {
+    display: flex;
+    padding-top: 30px;
+}
+
+.archPicBox {
+    padding-top: 40px;
+    align-self: center;
+}
+
+.archtectureBox p {
+    height: fit-content;
+    padding: 10px 0px;
+}
+
+
+.archPic {
+    width: 300px;
+    height: 200px;
+    background-size: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/arch.jpg');
+}
+
+header ul a:link,
+header ul a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+main section {
+    padding: 0px;
+    color: white;
+}
+
+section .ferramentas p {
+    padding: 20px 0px;
+}
+
+section .ferramentas h1 {
+    padding-bottom: 150px;
+    display: flex;
+    justify-self: flex-start;
+    color: rgb(228, 60, 60);
+}
+
+section .languages p {
+    padding: 20px 0px;
+}
+
+section .languages h1 {
+    padding: 40px 0px;
+    text-align: center;
+    color: rgb(228, 60, 60);
+}
+
+section .contatoBox h1 {
+    padding: 40px 0px;
+    text-align: center;
+    color: rgb(228, 60, 60);
+}
+
+section .archtecture h1 {
+    padding: 40px 0px;
+    text-align: start;
+    color: rgb(228, 60, 60);
+}
+
+img {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+main section:nth-child(odd) {
+    background-color: blue;
+}
+
+main section:nth-child(1) {
+    background-color: black;
+}
+
+main section:nth-child(4) {
+    padding-bottom: 150px;
+}
+
+footer p {
+    color: aqua;
+    background-color: darkblue;
+    font-size: small;
+    padding-top: 15px;
+}
+
+footer {
+    list-style: none;
+    padding: 0px;
+    background-color: darkblue;
+    position: fixed;
+    bottom: -95px;
+    /*sempre que tiver position tem que definir a largura*/
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    transition: all 0.5s;
+}
+
+footer:hover {
+    bottom: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    background-image: url('../img/instaBlack.png');
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    padding-top: 60px;
+    font-family: 'Oswald';
+    transition: 0.5s;
+    border-top: 3px solid rgb(0, 68, 255);
+}
+
+
+footer a.medium {
+    background-image: url('../img/medium.jpg');
+    color: rgb(16, 189, 16);
+    background-size: 35px;
+}
+
+footer a.link {
+    background-image: url('../img/linkedinColor.png');
+    color: rgb(39, 151, 207);
+    background-size: 35px;
+}
+
+footer a.git {
+    background-image: url('../img/github.png');
+    color: rgb(218, 165, 32);
+    background-size: 35px;
+}
+
+footer a.yb {
+    background-image: url('../img/youtube.png');
+    color: red;
+    background-size: 35px;
+}
+
+.contatoBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contatoBox ul li {
+    display: inline-block;
+}
+
+.contatoBox a:link,
+.contatoBox a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    background-image: url('../img/instaBlack.png');
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-size: 50px;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.contatoBox a:hover {
+    color: aqua;
+}
+
+.contatoBox ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contatoBox ul li:nth-child(4) {
+    background-color: transparent;
+    color: white;
+}
+
+.contatoBox a.whats {
+    background-image: url('../img/whatsapp.png');
+
+}
+
+.contatoBox a.telegram {
+    background-image: url('../img/telegram.png');
+}
+
+.contatoBox a.email {
+    background-image: url('../img/email.png');
+}
+
+.contatoBox a.up {
+    background-image: url('../img/up.png');
+}
+
+/*Desktop*/
+@media screen and (min-width:960px) {
+    header img {
+        content: url(../img/topoPC.jpg);
+    }
+
+    header ul {
+        text-align: right;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 26px;
+    }
+
+    .nameBox h1 {
+        font-size: 60px;
+        margin: 80px 0px;
+    }
+
+    header nav {
+        display: flex;
+        position: absolute;
+        background-color: transparent;
+        justify-content: flex-end;
+    }
+
+
+    .nameBox {
+        display: flex;
+        width: 1200px;
+        margin: 80px 0px;
+        align-self: flex-start;
+        justify-self: center;
+        background-color: transparent;
+    }
+
+
+    .nameBox p {
+        margin: 180px 400px;
+        font-size: large;
+    }
+
+
+    .ferramentas {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toolsPicBox {
+        width: 300px;
+        margin-left: 1000px;
+        position: absolute;
+    }
+
+    .languagesPicBox {
+        width: 600px;
+    }
+
+    .ferramentasText {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    .languagesText {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    .ferramentasBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .languagesBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .toolsPic {
+        width: 300px;
+        height: 300px;
+        background-size: 450px;
+    }
+
+    .languagesPic {
+        width: 600px;
+        height: 300px;
+        background-position: initial;
+        background-size: 600px;
+    }
+
+    .archPic {
+        width: 400px;
+        height: 200px;
+        background-size: 400px;
+    }
+
+
+    main section:nth-child(2) {
+        margin-top: -150px;
+    }
+
+    .archtecture {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+    }
+
+    .ouvir {
+        flex-direction: row;
+    }
+
+    .ouvir li {
+        margin-right: 20px;
+    }
+
+    footer {
+        align-items: center;
+    }
+
+    footer:hover {
+        bottom: 0px;
+    }
+
+    footer a:link,
+    footer a:visited {
+        color: white;
+    }
+
+    footer a.medium:hover {
+        background-image: url('../img/medium.jpg');
+        color: rgb(16, 189, 16);
+        border-top: 3px solid rgb(16, 189, 16);
+        background-size: 35px;
+    }
+
+    footer a.medium {
+        background-image: url('../img/mediumBlack.png');
+        background-size: 35px;
+    }
+
+    footer a.link:hover {
+        background-image: url('../img/linkedinColor.png');
+        color: rgb(39, 151, 207);
+        border-top: 3px solid rgb(39, 151, 207);
+        background-size: 35px;
+    }
+
+    footer a.link {
+        background-size: 35px;
+        background-image: url('../img/linkedinBlack.png');
+    }
+
+
+    footer a.git:hover {
+        background-image: url('../img/github.png');
+        color: rgb(218, 165, 32);
+        border-top: 3px solid rgb(218, 165, 32);
+        background-size: 35px;
+    }
+
+    footer a.git {
+        background-size: 35px;
+        background-image: url('../img/githubBlack.png');
+    }
+
+    footer a.yb:hover {
+        background-image: url('../img/youtube.png');
+        color: red;
+        border-top: 3px solid red
+    }
+
+    footer a.yb {
+        background-image: url('../img/youtubeBlack.png');
+    }
+
+    header ul a:hover {
+        color: rgb(228, 60, 60);
+    }
+
+    .archPicBox {
+        width: 450px;
+        margin-left: 40px;
+    }
+
+    header ul a {
+        background-color: transparent;
+    }
+
+    .nameBox h1:hover {
+        letter-spacing: .2rem;
+    }
+
+    .contatoBox ul {
+        flex-direction: row;
+    }
+
+    .contatoBox ul:nth-child(4) {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    section .ferramentas h1 {
+        margin-top: 100px;
+    }
+
+    section .languages h1 {
+        margin-top: 15px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width:720px) and (max-width:960px) {
+
+
+    header ul {
+        text-align: right;
+        justify-content: flex-end;
+        flex-direction: row;
+        font-size: smaller;
+    }
+
+    header nav {
+        display: flex;
+        position: absolute;
+        background-color: transparent;
+        justify-content: flex-end;
+    }
+
+    .nameBox h1 {
+        font-size: xx-large;
+        margin: -20px 100px;
+    }
+
+    .nameBox {
+        display: flex;
+        width: 600px;
+        margin: 120px 0px;
+        align-self: flex-start;
+        justify-self: center;
+        background-color: transparent;
+    }
+
+    .nameBox p {
+        margin: 40px 110px;
+        font-size: medium;
+    }
+
+    .ouvir {
+        flex-direction: row;
+    }
+
+    .ouvir li {
+        margin-right: 20px;
+    }
+
+    header ul a:hover {
+        color: aqua;
+    }
+
+    header ul a {
+        background-color: transparent;
+    }
+
+    .contatoBox ul {
+        flex-direction: row;
+    }
+}

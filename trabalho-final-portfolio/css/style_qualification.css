@@ -217,6 +217,15 @@ section .ingles h1 {
     color: rgb(228, 60, 60);
 }
 
+.ingles {
+    padding-bottom: 30px;
+}
+
+.experiencias {
+    padding-bottom: 30px;
+}
+
+
 img {
     padding-bottom: 20px;
     width: 100%;

@@ -194,6 +194,14 @@ section .ferramentas h1 {
     color: rgb(228, 60, 60);
 }
 
+.languages {
+    padding-bottom: 30px;
+}
+
+.ferramentas {
+    padding-bottom: 30px;
+}
+
 section .languages p {
     padding: 20px 0px;
 }
@@ -228,6 +236,7 @@ main section:nth-child(odd) {
 
 main section:nth-child(1) {
     background-color: black;
+    padding-bottom: 30px;
 }
 
 main section:nth-child(4) {

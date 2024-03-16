@@ -27,7 +27,7 @@ header nav {
     letter-spacing: .2rem;
     font-size: small;
     width: 100%;
-    justify-content: flex-center;
+    justify-content: center;
 }
 
 header ul {
@@ -269,6 +269,17 @@ header ul a:visited {
     background-image: url('../img/ole.png');
 }
 
+.magaluPic {
+    width: 240px;
+    height: 480px;
+    border-radius: 15px;
+    background-size: 240px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/magalu.png');
+}
+
 .projetos div {
     display: flex;
     flex-direction: column;
@@ -483,10 +494,6 @@ footer a.yb {
 
 /*Desktop*/
 @media screen and (min-width:960px) {
-    header img {
-        content: url(../img/topoPC.jpg);
-    }
-
     .projetosBox .proj {
         border-radius: 20px;
         width: 300px;
@@ -576,6 +583,7 @@ footer a.yb {
     .resumoBox {
         width: 900px;
         text-align: justify;
+        margin-top: 120px;
         margin-bottom: 40px;
     }
 
@@ -825,6 +833,12 @@ footer a.yb {
     }
     
     .olePic {
+        width: 190px;
+        height: 380px;
+        background-size: 190px;
+    }
+
+    .magaluPic {
         width: 190px;
         height: 380px;
         background-size: 190px;

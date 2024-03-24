@@ -133,6 +133,32 @@ body {
     margin-bottom: 20px;
 }
 
+.ferramentasText h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.ferramentasText ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ferramentasText ul li {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+}
+
+.ferramentasText ul li h3 {
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.ferramentasText ul li p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
 .languagesPic {
     width: 300px;
     height: 200px;

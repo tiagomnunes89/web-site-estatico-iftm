@@ -129,7 +129,8 @@ body {
 
 .experienciasPicBox {
     display: flex;
-    margin: 20px;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
 
 .collegePic {
@@ -436,7 +437,7 @@ footer a.yb {
 
     .experienciasPicBox {
         width: 300px;
-        margin-left: 1000px;
+        margin-left: 500px;
         position: absolute;
     }
 
@@ -644,5 +645,13 @@ footer a.yb {
 
     .contatoBox ul {
         flex-direction: row;
+    }
+
+    .experienciasPicBox {
+        width: 300px;
+        height: 100px;
+        margin-top: -150px;
+        margin-left: 400px;
+        position: absolute;
     }
 }

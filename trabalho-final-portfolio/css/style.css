@@ -488,8 +488,13 @@ footer a.yb {
     width: 300px;
     background-color: darkblue;
     justify-content: center;
+    align-items: center;
     align-content: center;
-    margin: 25px 0px;
+    margin: 25px 0;
+}
+
+.proj h5 {
+    padding: 20px;
 }
 
 /*Desktop*/

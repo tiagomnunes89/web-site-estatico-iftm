@@ -214,6 +214,17 @@ header ul a:visited {
     padding: 15px 20px;
 }
 
+.paypalPic {
+    width: 240px;
+    height: 480px;
+    border-radius: 15px;
+    background-size: 360px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/paypal.png');
+}
+
 .bradPic {
     width: 240px;
     height: 480px;
@@ -224,6 +235,7 @@ header ul a:visited {
     background-repeat: no-repeat;
     background-image: url('../img/bradesco.png');
 }
+
 
 .cpqdPic {
     width: 240px;
@@ -811,6 +823,12 @@ footer a.yb {
 
     .contatoBox ul {
         flex-direction: row;
+    }
+
+    .paypalPic {
+        width: 190px;
+        height: 380px;
+        background-size: 280px;
     }
 
     .bradPic {

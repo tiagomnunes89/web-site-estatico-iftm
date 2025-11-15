@@ -68,6 +68,7 @@ section ul a:visited {
 .welcome p {
     color: white;
     margin-top: 20px;
+    font-size: 1em;
 }
 
 .welcome nav {
@@ -77,6 +78,7 @@ section ul a:visited {
 .welcome h1 {
     color: rgb(228, 60, 60);
     margin-top: 20px;
+    font-size: 2em;
 }
 
 footer p {

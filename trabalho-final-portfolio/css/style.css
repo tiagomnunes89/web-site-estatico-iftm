@@ -292,6 +292,17 @@ header ul a:visited {
     background-image: url('../img/magalu.png');
 }
 
+.bancoPanPic {
+    width: 240px;
+    height: 480px;
+    border-radius: 15px;
+    background-size: 240px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/apppan.webp');
+}
+
 .projetos div {
     display: flex;
     flex-direction: column;
